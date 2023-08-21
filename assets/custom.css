@@ -1,0 +1,78 @@
+.container-fluid.custom_cont.alert {
+    display: none;
+}
+/* alert notification css start */
+
+.alert_body {
+    position: relative;
+    background: #fff;
+    box-shadow: 0 0 0.25em 0 rgb(0 0 0 / 25%);
+    padding: unset !important;
+}
+.alert_close {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 0 rgb(0 0 0 / 50%);
+    cursor: pointer !important;
+    overflow: hidden;
+    -webkit-transform: translate(-10px,10px) scale(1);
+    transform: translate(-10px,10px) scale(1);
+    transition: background .25s,-webkit-transform .25s;
+    transition: background .25s,transform .25s;
+    transition: background .25s,transform .25s,-webkit-transform .25s;
+    padding: 15px;
+    transform: translate(25%,-25%) scale(1);
+}
+span.alert_close_label {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    border: 0;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+}
+header.alert_header {
+    position: relative;
+    padding: 23px 30px 23px 70px;
+}
+span.alert_indicator {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #F8E71C;
+    padding: 25px 18px;
+}
+h2.alert_title {
+    font-size: 1.3125rem;
+    line-height: 1.52381;
+    margin: unset;
+}
+h2.alert_title p {
+    margin-top: 1em;
+}
+span.alert_close_icon img {
+    width: 10px;
+    height: 10px;
+}
+span.alert_close_icon {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: 0;
+}
+/* alert notification css end */
+
+
+.wp-menu-image.dashicons-before img {
+    width: 50%;
+    height: auto;
+}
